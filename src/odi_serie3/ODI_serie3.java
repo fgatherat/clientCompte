@@ -12,7 +12,7 @@ public class ODI_serie3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Customer c1 = new Customer(1,"luc" ,"chevre");
+        Customer c1 = new Customer(1,"Yannick" ,"Galvanetto");
         
         c1.addAccount("123", "epargne", 0.1);
         c1.getAccountByNumber("123").credit(100);
